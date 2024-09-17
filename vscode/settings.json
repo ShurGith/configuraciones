@@ -1,0 +1,85 @@
+{
+    "[blade]": {
+        "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+    },
+    "blade.format.enable": true,
+    "bladeFormatter.format.wrapAttributes": "preserve-aligned",
+    "bladeFormatter.format.wrapLineLength": 9999,
+    "breadcrumbs.enabled": false,
+    "editor.minimap.enabled": false,
+    "editor.fontSize": 14,
+    "editor.lineHeight": 26,
+    "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.cursorStyle": "line",
+    "editor.cursorWidth": 3,
+    "editor.defaultFormatter": null,
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "editor.tabSize": 2,
+    "editor.formatOnPaste": true,
+    "editor.wordWrap": "on",
+    "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
+    "emmet.includeLanguages": {
+        "blade": "html",
+        "vue-html": "html",
+        "vue": "html",
+    },
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+    },
+    "highlight-matching-tag.styles": {
+        "opening": {
+            "left": {
+                "custom": {
+                    "borderWidth": "1px",
+                    "borderStyle": "solid",
+                    "borderColor": "white",
+                    "borderRadius": "5px",
+                }
+            },
+            "right": {
+                "custom": {
+                    "borderWidth": "1px",
+                    "borderStyle": "solid",
+                    "borderColor": "white",
+                    "borderRadius": "5px",
+                }
+            }
+        }
+    },
+    "prettier.requireConfig": true,
+    "prettier.useEditorConfig": false,
+    "namespaceResolver.sortAlphabetically": true,
+    "php.suggest.basic": false, // use PHP Intelliphense
+    "[php]": {
+        "editor.defaultFormatter": "junstyle.php-cs-fixer",
+    },
+    "phpConstructor.visibility": "public",
+    "php-cs-fixer.onsave": true,
+    "php-cs-fixer.showOutput": false,
+    "php-cs-fixer.autoFixByBracket": false,
+    "php-cs-fixer.rules": "@PSR2",
+    "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+    "php-cs-fixer.lastDownload": 1622517439779,
+    "search.useIgnoreFiles": false,
+    "tailwindCSS.emmetCompletions": true,
+    "tailwindCSS.colorDecorators": false,
+    "workbench.colorTheme": "Community Material Theme",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "newUntitledFile",
+}
